@@ -1,0 +1,111 @@
+/*
+  SLIDER BASIC CSS
+*/
+
+.slides-container{
+  margin:auto;
+  height:500px;
+  width:50%;
+  margin-top:150px;
+  border:1px solid black;
+}
+
+.left{
+  float:left;
+  height:500px;
+  width:10%;
+  background-color:white;
+}
+
+.right{
+  float:right;
+  height:500px;
+  width:10%;
+  background-color:white;
+}
+
+.slides{
+  height:500px;
+  width:0%;
+  z-index: 100;
+  position:absolute;
+}
+
+.slides-box{
+  float:left;
+  opacity:0.5;
+  height:100px;
+  margin:20px;
+  margin-left:0px;
+  width:23.42%;
+}
+
+.slides-box:last-child{
+  margin-right:0px;
+}
+
+.active-box{
+  opacity:1;
+}
+
+.active {
+  transition:1s;
+  width:48.5%;
+}
+
+#s0{
+  background-image:url('images/FARM.jpg');
+}
+
+#s1{
+  background-image:url('images/trees.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#s2{
+  background-image:url('images/hotel1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#s3{
+  background-image:url('images/hawai.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#s4{
+
+  background-position: center;
+  background-size: cover;
+}
+
+
+#s-box0{
+  background-image:url('images/FARM.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#s-box1{
+  background-image:url('images/trees.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#s-box2{
+  background-image:url('images/hotel1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#s-box3{
+  background-image:url('images/hawai.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#s-box4{
+  background-color: black;
+}
